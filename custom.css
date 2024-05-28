@@ -1,0 +1,129 @@
+#todayTab,#dailyTab,#weekTab{
+    background-color: rgba(114,106,149,0.3);
+    color:black;
+    transition: 1s;
+}
+
+#todayTab:hover{
+    background-color: rgba(53,31,57,0.5);
+}
+#dailyTab:hover{
+    background-color: rgba(53,31,57,0.5);
+}
+#weekTab:hover{
+    background-color: rgba(53,31,57,0.5);
+}
+
+.nav-link.active{
+    background-color: rgba(53,31,57,0.75) !important;
+    color: white !important;
+}
+
+#detailBtn,#detailBtn2{
+    background-color: #719fb0;
+    color:#212529;
+    transition: 1s;
+}
+
+#detailBtn:hover,#detailBtn2:hover{
+    background-color: #0d2e3a;
+    color:white;
+}
+
+.card-header{
+    background-color: #719fb0 ;
+}
+
+#dateSubmit{
+    background-color: #719fb0;
+    color:#212529;
+    transition: 1s;
+}
+
+#dateSubmit:hover{
+    background-color: #0d2e3a;
+    color:white;
+}
+
+/* custom.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.nav-pills .nav-link {
+    color: #007bff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.table {
+    background-color: #fff;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+#domainInput {
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+#addDomainButton {
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+#restrictedSitesList {
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+#restrictedSitesList li {
+    list-style: none;
+    margin-bottom: 5px;
+}
